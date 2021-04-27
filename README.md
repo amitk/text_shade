@@ -1,4 +1,5 @@
 ## TextShade
+  Gem Link: [text_shade](https://rubygems.org/gems/text_shade).
   Text Shade is a gem to colour our your string text. It can be used to print text in these colors.
   - black
   - red
@@ -15,16 +16,26 @@
   - light_magenta
   - light_cyan
 
-  To print any string in a specified color, do
-    "any string".<any-of-colors-above>
-  eg.
-    for red: "string".red
+## Installation
+  To use through Gemfile:
+  ```ruby
+    gem 'text_shade', '~> 2.0'
+  ```
+  To install gem:
+  ```ruby
+    gem install text_shade
+  ```
 
 ## Usage
-
   Require this Gem:
+  ```ruby
     require 'text_shade'
+  ```
+  Then to get string in red color call:
+  ```ruby
+    "any string".red
+  ```
+  call mentioned color method on string to get that color.
 
 ## Limitation
-
-  This may not work on windows systems.
+  It may not work on windows command prompt.
