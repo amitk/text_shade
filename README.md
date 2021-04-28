@@ -1,5 +1,6 @@
 ## TextShade
-  Gem Link: [text_shade](https://rubygems.org/gems/text_shade).
+  ![version](https://badge.fury.io/rb/text_shade.svg)  
+  Gem Link: [text_shade](https://rubygems.org/gems/text_shade).  
   Text Shade is a gem to colour our your string text. It can be used to print text in these colors.
   - black
   - red
